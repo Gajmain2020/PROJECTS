@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-image: url(81-812081_minimalist-purple-background.jpg);
+    
+    height:2500px
+    
+}
+
+.left{
+    display: inline-block;
+    width:100px ;
+    height: 120px;
+    /* border:2px solid white; */
+    position: absolute;
+    left: 105px;
+    top: 5px;
+}
+.left img{
+    width: 90px;
+    height: 78px;
+    padding: 5px;
+}
+.left div{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: 900;
+}
+
+.mid{
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+}
+.navbar{
+    list-style-type: none;
+    padding: 10px;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Zen Dots', cursive;
+}
+.navbar li{
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px auto;
+    background-color: rgb(58, 219, 53);
+    border:3px solid rgb(255, 103, 103);
+    border-style: dotted;
+    border-radius: 20px;
+    
+}
+.navbar a{
+    color: rgb(63, 62, 62);
+    text-decoration: none;
+    /* background-color: rgb(58, 219, 53); */
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+}
+.navbar li:hover,.navbar li:active{
+    background-color: white;
+    border:2px solid green;
+    box-shadow: 10px 10px 20px;
+    transition: 220ms;
+}
+
+.right{
+display: inline-block;
+position: absolute;
+right:20px;
+top: 30px; 
+/* height: 20px;
+width: 60px; */
+
+
+
+}
+.right input{
+    padding: 7px;
+    width: 200px;
+    border: 3px solid blue;
+    border-radius: 50px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.mainbody{
+    position: relative;
+    left:22%;
+    width: 950px;
+}
+.mainbody h2{
+    border:2px solid wheat;
+    display: inline;
+    position: relative;
+    left:270px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: oblique;
+    font-weight: 900;
+
+}
+.mainbody p{
+    display: inline-block;
+    border: 2px solid red;
+    padding:25px ;
+    margin:5px ;
+    font-size: 20px;
+    color: white;
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+}
+
+.form{
+    position: absolute;
+    right: 50px;
+    top: 150px;
+    margin: 50px;
+    
+
+}
+.form input{
+    display: block;
+    background-color: rgb(80, 80, 80);
+    /* opacity: 80%; */
+    color: rgb(255, 255, 255);
+    width: 410px;
+    height: 40px;
+    margin: 20px;
+    border: 2px solid rgb(49, 49, 255);
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-family: 'Coming Soon', cursive;
+}
+
+.btn{
+    position: relative;
+    left: 170px;
+    height: 35px;
+    width: 120px;
+    color: white;
+    background-color: rgba(238, 81, 178, 0.849);
+    border: 2px solid red;
+    border-radius: 30px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: rgb(250, 0, 154);
+    box-shadow: 5px 5px 15px;
+    transition: 300ms;
+}
+
+
+.foot{
+    position: absolute;
+    bottom: -1790px;
+    right: 858px;
+}
